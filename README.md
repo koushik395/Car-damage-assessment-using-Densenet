@@ -44,4 +44,6 @@ To make the insurance claims for car damage faster we have used CNN to classify 
 https://github.com/Charishma-Bailapudi/Test/assets/98004429/207686ab-f889-46db-9a1e-be7ab1af1606
 
 
+## 5. How to run the app
+After downloading the repository move to the folder and follow the instructions as mentioned in the file instructions.txt
   
