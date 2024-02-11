@@ -45,5 +45,7 @@ https://github.com/Charishma-Bailapudi/Test/assets/98004429/207686ab-f889-46db-9
 
 
 ## 5. How to run the app
-After downloading the repository move to the folder and follow the instructions as mentioned in the file instructions.txt
+* After downloading the repository move to the folder and follow the instructions as mentioned in the file instructions.txt.
+* Must have the models downloaded and should be in deep_models folder inorder for the application to work.
+
   
