@@ -21,21 +21,24 @@ For Validation of Vehicle damage we will divide the problem into three stages.
 This problem is a classic classification problem and Since we will be dealing with images as input, we will be using Convolutional Neural Networks (CNN).
 
 ## 3. Data Source
+#### Models - [Densenet Models](https://drive.google.com/drive/folders/1_XZ-Kq2TYZ-vDrqKsX5z6_6ZGFFON3aY?usp=drive_link)
+#### Dataset - [Car damage dataset](https://drive.google.com/drive/folders/1pAz_oRcgWf_hHPS0PRZsvaYRT_OkWO_9?usp=drive_link)
+#### Yolov5  -  [Yolov5 Dataset](https://universe.roboflow.com/cardamage-jrvmi/car-damage-cqreo/dataset/3)
 
 ## 4. Procedure
-To make the insurance claims for car damage faster we have used CNN to classify the car damage and detect type of damage using yolo v3.
+To make the insurance claims for car damage faster we have used CNN to classify the car damage and detect type of damage using yolo v5.
 * Downloaded the whole dataset from Kaggle website.
 * Exploratory Data Analysis of Data using Matplotlib and Seaborn.
-* Since the dataset on car damage are rare I have used two types of Data Augmentation to synthetically enlarge the dataset.
+* Since the dataset on car damage are rare we have used two types of Data Augmentation to synthetically enlarge the dataset.
 * Created three types of data folders Orginal Data, Original Data + Augmentation 1, Original Data + Augmentation 2.
-* Used Pretrained model Densenet without FC layers and added my own configuration of FC layers (1 Flatten layer,2 Full Connection layers and 1 Dropout layer).
+* Used Pretrained model Densenet without FC layers.
 * Trained two types of model for each pretrained model.
   * Training only FC layers
   * Training All layers.
-* Used Logistic Regression as baseline model. Trained around 108 models.
-* Trained Yolov3 to detect type of damage in Car Dent and Scratch, Smash, Glass and Light Broken.
+* Used Logistic Regression as baseline model.
+* Trained Yolov5 to detect type of damage in Car Dent, Scratch, Shatter, Dislocation.
 * Densenet trained on all layers using Original Data + Augmentation 1 gave best performance over other models.
-* Used Flask and Streamlit to make a web app on local machine.
+* Used Streamlit to make a web app on local machine.
 
 
 https://github.com/Charishma-Bailapudi/Test/assets/98004429/207686ab-f889-46db-9a1e-be7ab1af1606
