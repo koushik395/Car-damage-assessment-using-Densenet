@@ -1,0 +1,10 @@
+Model,Accuracy,Precision,Recall
+Densenet_stage1_baseline,0.873,0.887,0.856
+Densenet_stage2_baseline,0.586,0.576,0.571
+Densenet_stage3_baseline,0.538,0.529,0.524
+Densenet_stage1 FC,0.871,0.886,0.852
+Densenet_stage2 FC,0.609,0.601,0.592
+Densenet_stage3 FC,0.579,0.565,0.558
+Densenet_stage1 all,0.954,0.933,0.978
+Densenet_stage2 all,0.743,0.757,0.725
+Densenet_stage3 all,0.673,0.676,0.667
